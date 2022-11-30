@@ -34,6 +34,8 @@ fn webdev(project_name: &str) {
     <div id="dev">
         <h1>{} created successfully!</h1>
     </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>"#, project_name, project_name).as_bytes()).expect("Error while writing to index.html");
